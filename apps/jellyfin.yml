@@ -48,7 +48,6 @@
         pg_volumes:
           - '/etc/localtime:/etc/localtime:ro'
           - '{{path.stdout}}:{{path.stdout}}'
-          - '/mnt:/mnt'
           - '/opt/appdata/{{pgrole}}:/config'
           - '/opt/transcodes:/transcode'
         #  - '/dev/dri/renderD128:/dev/dri/renderD128'
